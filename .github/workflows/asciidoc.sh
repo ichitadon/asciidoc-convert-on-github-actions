@@ -20,3 +20,4 @@ CURRENT_PATH=`pwd`
 # -r, --require = LIBRARY
 
 asciidoctor -r asciidoctor-mathematical -a mathematical-format=svg -a mathematical-inline=true -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/html/ -o index.html  -a imagesdir=${CURRENT_PATH}/images  -r asciidoctor-diagram   index.adoc
+asciidoctor-pdf -r asciidoctor-mathematical -a mathematical-format=svg -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/pdf/ -o sample.pdf -a imagesdir=${CURRENT_PATH}/images -a scripts@=cjk -a allow-uri-read index.adoc
