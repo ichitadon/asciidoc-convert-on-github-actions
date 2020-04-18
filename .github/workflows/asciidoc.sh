@@ -19,4 +19,4 @@ CURRENT_PATH=`pwd`
 # -d, --doctype = DOCTYPE
 # -r, --require = LIBRARY
 
-asciidoctor -r asciidoctor-mathematical -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/html/ -o index.html  -a imagesdir=${CURRENT_PATH}/images  -r asciidoctor-diagram   index.adoc
+asciidoctor -r asciidoctor-mathematical -a mathematical-format=svg -a mathematical-inline=true -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/html/ -o index.html  -a imagesdir=${CURRENT_PATH}/images  -r asciidoctor-diagram   index.adoc
