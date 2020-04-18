@@ -1,0 +1,35 @@
+= hoge
+
+== hogehoge
+
+=== hogehogehoge
+
+[options="header", width=60%, cols="2,1"]
+|===
+
+|row1
+|hoge
+
+|row2
+|moge
+
+|row3
+|foo
+
+|===
+
+=== SAMPLE1
+. sample1
+. sample2
+. sample3
+
+TIP: tips1
+
+CAUTION: caution1
+
+=== SAMPLE2
+. sample1
+. sample2
+. sample3
+
+<<<
