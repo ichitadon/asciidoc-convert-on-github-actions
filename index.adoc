@@ -32,4 +32,10 @@ CAUTION: caution1
 . sample2
 . sample3
 
+=== asciidoctor-mathematical
+[latexmath]
+++++
+e^{2\pi \sqrt{-1}} = 1.
+++++
+
 <<<
