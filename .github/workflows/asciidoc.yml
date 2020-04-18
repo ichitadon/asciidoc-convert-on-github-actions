@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Output-document
-        path: ./README.html
+        path: ./index.html
